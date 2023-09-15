@@ -1,8 +1,0 @@
-a
-s
-d
-f
-g
-h
-j
-We have to add more stuff otherwise the commit won't come up. Mynameiscallan
