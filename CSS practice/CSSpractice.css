@@ -1,0 +1,36 @@
+
+/* Element selector */
+h1 {
+        color: rgb(227, 233, 229); 
+        background-color: purple;
+    }
+    /* ID selector */
+    #thisone {
+        color: rgb(227, 233, 229); 
+        background-color: purple;
+        border: 3px solid green;
+    }
+    /* Class selector */
+    .centerkitty {
+        position: relative;
+        text-align: center;
+        
+
+    }
+    .centered_text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    /* Apply to all children that are children of the hobbies ID */
+    #hobbies li {
+        color: black; 
+        background-color: lightblue;
+        border: 3px solid green;
+        
+    }
+    /* Psuedo-selector */
+    #hobbies li:hover {
+        color: rgb(227, 233, 229);
+    }
