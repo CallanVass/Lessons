@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Initial Commit</title>
+    <style>
+        /* Element selector */
+        h1 {
+            color: rgb(227, 233, 229); 
+            background-color: purple;
+        }
+        /* ID selector */
+        #thisone {
+            color: rgb(227, 233, 229); 
+            background-color: purple;
+            border: 3px solid green;
+        }
+        /* Class selector */
+        .centerkitty {
+            position: relative;
+            text-align: center;
+            
+
+        }
+        .centered_text {
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%, -50%);
+        }
+        /* Apply to all children that are children of the hobbies ID */
+        #hobbies li {
+            color: black; 
+            background-color: lightblue;
+            border: 3px solid green;
+            
+        }
+        /* Psuedo-selector */
+        #hobbies li:hover {
+            color: rgb(227, 233, 229);
+        }
+    </style>
+</head>
+<body>
+    <h1>A Title!</h1>
+    <h2 id="thisone">A Second Title!</h2>
+    <h3>A Third Title!</h3>
+    <h4>4</h4>
+    <h5>5</h5>
+    <h6>6</h6>
+    
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quisquam ullam culpa aspernatur voluptas ratione possimus ab nemo animi sunt ut molestiae quo provident eos, maiores corrupti atque, nam veritatis?</p>
+    
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ut repellendus saepe.</p>
+    <div class="centerkitty">
+        <img src="https://placekitten.com/400/400" alt="Cute kitten picture">
+        <p class="centered_text">Cute Kitten</p>
+    </div>
+    
+    <br></br>
+    <a href="https://github.com/CallanVass/Lessons">Link to GitHub</a>
+
+    <ul id="hobbies">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+
+</body>
+</html>
