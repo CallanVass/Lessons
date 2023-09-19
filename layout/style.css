@@ -1,0 +1,52 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, body > p {
+    background-color: #dde0e3;
+}
+em, strong {    
+    background-color: lightskyblue;
+    /* display: inline-block; */
+    /* border-radius: 40%; */
+    /* border: 12px; */
+
+}
+h1 {
+    padding: 1rem 2rem 3rem 4rem;
+    border: 0.1rem solid black
+}
+p {
+    padding: 2rem 1rem;
+    margin: 1rem;
+    /* padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem; */
+}
+.btn{
+    color: white;
+    background-color: rgb(74, 184, 147);
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 0.5rem;
+    width: 33%;
+}
+.btn img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+div p {
+    font-size: 1rem;
+    text-align: center;
+}
